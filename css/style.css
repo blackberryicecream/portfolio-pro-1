@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Homemade+Apple&display=swap');
-
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 * {
     margin: 0;
     padding: 0;
@@ -88,12 +88,71 @@ h1, h2 {
 p {
 
     font-family: 'Homemade Apple', cursive;
+    font-size: 100%;
     padding-top: 10px;
     padding-left: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-right: 20px ;
     justify-content: center;
 }
 
+ .paper {
+
+    position: relative;
+    height: 300px;
+    width: 90%;
+    background: rgba(252, 173, 223, 0.411);
+    box-shadow: 0px 0px 5px 0px #706e6e;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-right: 60px ;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .paper::before {
+    content: '';
+    position: absolute;
+    left: 45px;
+    height: 100%;
+    width: 2px;
+    background: rgba(245, 49, 49, 0.4);
+  }
+  .lines {
+    margin-top: 40px;
+    height: calc(100% - 40px);
+    width: 100%;
+ }
+  .text {
+    position: absolute;
+    top: 65px;
+    left: 55px;
+    bottom: 10px;
+    right: 10px;
+    line-height: 45px;
+    font-family: 'Homemade apple';
+    font-weight: 500;
+    overflow: hidden;
+    outline: none;
+  }
+  .holes {
+    position: absolute;
+    left: 10px;
+    height: 25px;
+    width: 25px;
+    background: lightgoldenrodyellow;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 2px 0px #888;
+  }
+  .hole-top {
+    top: 10%;
+  }
+  .hole-middle {
+    top: 50%;
+  }
+  .hole-bottom {
+    bottom: 10%;
+  }
     
 
