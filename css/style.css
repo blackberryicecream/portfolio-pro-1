@@ -84,6 +84,8 @@ h1, h2 {
   align-items: center;
   justify-content: center }
 
+  
+
 
 p {
 
@@ -155,4 +157,22 @@ p {
     bottom: 10%;
   }
     
-
+  #classes {
+    font-size: 100%;
+    position: relative;
+    height: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: center 
+    
+   
+}
+ 
+#classes {
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-right: 60px ;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
